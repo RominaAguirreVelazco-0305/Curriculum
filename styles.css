@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+:root {
+    --primary-color: #ed7ccf;
+    --secondary-color: #E6D3CB;
+}
+
+body {
+    font-family: 'Tahoma';
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.text-Romina {
+    font-family: 'Impact';
+    color: #0f0e0e;
+    font-size: 7rem; /* Aumenta o disminuye este valor según sea necesario */
+}
+
+#about img {
+    max-width: 100%; /* Asegura que la imagen no exceda el ancho de la columna */
+    height: auto;    /* Mantiene la proporción de la imagen */
+    border-radius: 10px; /* Opcional: Redondea las esquinas de la imagen */
+    margin-top: 20px; /* Ajusta la posición vertical si es necesario */
+}
+
+
+.text-pink {
+    color: var(--primary-color);
+    font-size: 1.2rem;
+}
+
+.text-purple {
+    color: var(--secondary-color);
+    font-size: 1.2rem;
+}
+
+.text-Romina {
+    font-family: 'Julietta';
+    color: #0b0a0a;
+    font-size: 2.5rem;
+}
+
+.bg-pink {
+    background-color: var(--primary-color);
+}
+
+.bg-purple {
+    background-color: var(--secondary-color);
+}
+
+.btn-purple {
+    background-color: var(--secondary-color);
+    color: #fff;
+}
+
+.btn-purple:hover {
+    background-color: #b44cd1;
+    color: #fff;
+}
+
+.header {
+    background-image: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+}
+
+.profile-picture {
+    width: 220px;
+    height: 300px;
+    border: 5px solid #fff;
+}
+
+.progress-bar {
+    font-size: 0.9rem;
+}
+
+.card-title {
+    color: var(--primary-color);
+}
+
+.card-text ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.social-icons a {
+    color: var(--primary-color);
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: var(--secondary-color);
+}
+
+#about img,
+#interests img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50px;
+}
+
+.bordered-section {
+    border: 2px solid var(--secondary-color);
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.bg-light {
+    background-color: #f0f8ff;
+}
+
+#about img {
+    max-width: 40%; /* Asegura que la imagen no exceda el ancho de la columna */
+    height: 30;    /* Mantiene la proporción de la imagen */
+    border-radius: 50px; /* Opcional: Redondea las esquinas de la imagen */
+    margin-top: 10px; /* Ajusta la posición vertical si es necesario */
+}
+
+.about-background {
+    background-color: #add8e6; /* Color azul claro */
+}
